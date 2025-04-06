@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        div:hover {
+            color: blue;
+        }
+
+        div > p {
+            display: none;
+        }
+        
+        div:hover > p {
+            display: block;
+            color: rgb(8, 1, 14);
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>HOVER</h1>
+    <p>passe aq em baixo</p>
+    <div>
+        passe aqui
+        <p>TEXTO AQUI</p>
+    </div>
+</body>
+</html>
